@@ -51,7 +51,7 @@ const player = new Fighter({
     x: 215,
     y: 157,
   },
-  // class to choose whice animation sheet will be called
+  // class to choose which animation sheet will be called
   sprites: {
     idle: {
       imageSrc: "./img/samuraiMack/Idle.png",
@@ -155,7 +155,7 @@ const enemy = new Fighter({
   },
 });
 
-// defult values of player
+// default values of player
 console.log(player);
 
 const keys = {
